@@ -4,7 +4,9 @@ This project features a simple telgram bot using Python and mongoDB for user dat
 
 ### Tech Stack Used
 Python
+
 mongoDB
+
 Aiogram
 
 ### Steps to Run the Bot:
@@ -13,9 +15,13 @@ Aiogram
     - Type in /newbot and type in the name and username of the bot.
     - Copy the token generated and paste it into TELEGRAM_BOT_API_KEY in config.py.
     - Type in /setcommands to set the commands. For the default template, you can paste the following in:
+        
         subscribe - Subscribe to the bot
+
         unsubscribe - Unsubscribe from the bot
+
         check_subscription - Check subscription status
+
         dummy - Dummy command
 
 2. Download and Start MongoDB
